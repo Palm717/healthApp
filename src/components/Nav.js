@@ -43,7 +43,6 @@ function Nav() {
                 to="/"
                 fontSize="20px"
                 color="pink.700"
-                // m="2px"
                 sx={linkStyle}
               >
                 home
@@ -64,10 +63,10 @@ function Nav() {
 
             <BreadcrumbItem isCurrentPage>
               <BreadcrumbLink
-                href="#"
+                as={Link}
+                to="/about"
                 fontSize="20px"
                 color="green"
-                // m="8px"
                 sx={linkStyle}
               >
                 about
