@@ -10,7 +10,7 @@ function FormTemplate({ formVal, message }) {
   return (
     <FormControl>
       <FormLabel formVal={formVal}>{formVal}</FormLabel>
-      <Input type="input" />
+      <Input type="input" color="whiteAlpha.900" />
       <FormHelperText message={message}>{message}</FormHelperText>
     </FormControl>
   );

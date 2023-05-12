@@ -39,6 +39,7 @@ function Home() {
           bgGradient={"linear(to-b, whiteAlpha.900, pink.300, whiteAlpha.900)"}
           h="60vh"
           overflowY="auto"
+          m="20px"
         >
           <Heading
             fontSize={["md", "xl", "4xl"]}
@@ -61,6 +62,7 @@ function Home() {
           colSpan={1}
           style={beveledStyle}
           bgGradient={"linear(to-b, blue.100, pink.100, orange.200)"}
+          mb="10px"
         >
           <Box>
             <Text>
@@ -86,6 +88,7 @@ function Home() {
           colSpan={1}
           style={beveledStyle}
           bgGradient={"linear(to-b, blue.100, pink.100, orange.200)"}
+          mt="10px"
         >
           {/* Here goes your main content */}
           <Box></Box>

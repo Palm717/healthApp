@@ -18,12 +18,15 @@ function About() {
   };
 
   return (
-    <Grid templateColumns=" auto repeat(3, .5fr) auto" maxH="100vh">
+    <Grid templateColumns=" auto repeat(3, .5fr) auto" maxH="100vh" mt="55px">
       <GridItem gridColumn="1 / -1">
         <Nav />
       </GridItem>
 
-      <GridItem>
+      <GridItem
+        bgGradient="linear(to-b, green.100, blue.300, green.100)"
+        rounded="35px"
+      >
         <Box m={20} w={["sm", "lg"]} style={beveledStyle} align="flex-end">
           <FormTemplate formVal="Email" message="" />
 
