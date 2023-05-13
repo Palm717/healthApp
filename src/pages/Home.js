@@ -3,8 +3,6 @@ import { Heading, Text, Box, Grid, GridItem, Divider } from "@chakra-ui/react";
 
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import ImageTemplate from "../components/Images";
-import japan from "../assets/img/japan.png";
 
 function Home() {
   const beveledStyle = {
