@@ -37,7 +37,7 @@ function About() {
       </GridItem>
 
       <GridItem gridColumn="1 / -1">
-        <Footer />
+        <Footer email="contact@123.com" />
       </GridItem>
     </Grid>
   );
